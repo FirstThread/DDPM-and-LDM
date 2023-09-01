@@ -13,7 +13,7 @@ This repository provides dataset classes and some utility functions for the rele
 1. Clone this repository.
 2. Build the project. Be aware that the transfer of user permissions at the end of the build takes about 30 minutes.
 ```console
-cd cognitive_robotics_lab_2023_binpicking_ddpm/Docker && ./build.sh
+cd denoising_diffusion/Docker && ./build.sh
 ```
 3. Run a container.
 ```console
