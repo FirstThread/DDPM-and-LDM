@@ -15,11 +15,15 @@ This repository provides dataset classes and some utility functions for the rele
 ```console
 cd denoising_diffusion/Docker && ./build.sh
 ```
-3. Run a container.
+3. Start and attach to a tmux session.
+```console
+tmux
+```
+4. Run a container.
 ```console
 ./run.sh
 ```
-4. (Optional) For quick prototyping setup jupyter notebook in the container.
+5. (Optional) For quick prototyping setup jupyter notebook in the container.
 ```console
 jupyter notebook password
 ```
