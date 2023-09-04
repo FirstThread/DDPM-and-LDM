@@ -33,9 +33,9 @@ cd /repos
 ```console
 jupyter notebook --no-browser --ip 0.0.0.0 --port 9999 &
 ```
-(Optional) Connect to the machine hosting the container, for example using (adapt to your user, login server and host machine):
+(Optional) Connect to the machine hosting the container, for example using (adapt to your USER):
 ```console
-ssh -L 9999:localhost:9999 -J USER@login-stud.informatik.uni-bonn.de USER@rob4
+ssh -L 9999:localhost:9999 -J USER@login-stud.informatik.uni-bonn.de USER@robo4
 ```
 In either case, the notebook is now available locally at [http://localhost:9999/](http://localhost:9999/).
 
